@@ -31,9 +31,9 @@ ____
 
 ![image](https://user-images.githubusercontent.com/63950114/207950467-241a77d6-4a8e-417e-b194-bf016f9bb1f5.png)
 ____
-Скачиваем bot.zip и ссылки ниже и распаковываем где удобно
+Скачиваем из поста с припиской LATEST bot.zip по ссылке ниже и распаковываем где удобно
 
-https://github.com/vuwWolf/server_Bot/releases/tag/poxuy_release
+https://github.com/vuwWolf/server_Bot/releases
 ____
 В папке запускаем bot.exe и вставляем скопированный ранее токен
 
