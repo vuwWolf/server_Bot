@@ -29,8 +29,14 @@ async def staff_handler(message: Message):
                          'Антон Шмагин (https://vk.com/aantoss) и Павел Одинцов (https://vk.com/errormaned)')
 
 
-@bot.on.message(text="Лобанов, пососи-ка мой пятиярдовый хуй") # пасхалОЧКА
+@bot.on.message(text="/lobanov_suka") # пасхалОЧКА
 async def lobanov_handler(message: Message):
-    await message.answer("Влад, иди нахуй пожалуйста")
+    await message.answer('Влад, иди нахуй пожалуйста')
+
+
+@bot.on.message(text="/lzrd")
+async def lizard_handler(message: Message):
+    await message.answer('by LizardSquad dev')
+
 
 bot.run_forever()
