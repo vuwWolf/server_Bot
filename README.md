@@ -1,8 +1,10 @@
 # Простой ВК бот для беседы /server/
 
-<img src="https://img.shields.io/badge/version-0.2-green">
-<img src="https://img.shields.io/badge/for-VK-blue">
-
+<p align="center">
+  <img src="https://img.shields.io/badge/version-0.2-green">
+  <img src="https://img.shields.io/badge/for-VK-blue">
+</p>
+  
 ## Инструкция по запуску
 ### Шаг 1. Подготовка сообщества к работе бота
 Зайти в настройки сообщества, во вкладке "Сообщения" включить опцию "Сообщения сообществу".
