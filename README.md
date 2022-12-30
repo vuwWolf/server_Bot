@@ -1,4 +1,11 @@
 # Простой ВК бот для беседы /server/
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-0.2-green">
+  <img src="https://img.shields.io/badge/for-VK-blue">
+  <img src="https://img.shields.io/badge/python-3.11%2B-yellow">
+</p>
+  
 ## Инструкция по запуску
 ### Шаг 1. Подготовка сообщества к работе бота
 Зайти в настройки сообщества, во вкладке "Сообщения" включить опцию "Сообщения сообществу".
@@ -31,9 +38,9 @@ ____
 
 ![image](https://user-images.githubusercontent.com/63950114/207950467-241a77d6-4a8e-417e-b194-bf016f9bb1f5.png)
 ____
-Скачиваем bot.zip и ссылки ниже и распаковываем где удобно
+Скачиваем из поста с припиской LATEST bot.zip по ссылке ниже и распаковываем где удобно
 
-https://github.com/vuwWolf/server_Bot/releases/tag/poxuy_release
+https://github.com/vuwWolf/server_Bot/releases
 ____
 В папке запускаем bot.exe и вставляем скопированный ранее токен
 
