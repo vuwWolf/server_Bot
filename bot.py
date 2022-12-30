@@ -1,8 +1,9 @@
 from vkbottle.bot import Bot, Message # Импорт библиотеки
+from loguru import logger
 
+print('Copyright © 2022 vuwWolf')
 TokenPenis = input("Введите токен: ")
 bot = Bot(token=TokenPenis)
-
 
 @bot.on.message(text="/help") # Задаю хуйню, чтобы при появлении "/help" в чате, писалось сообщение
 async def help_handler(message: Message):
@@ -29,14 +30,11 @@ async def staff_handler(message: Message):
                          'Антон Шмагин (https://vk.com/aantoss) и Павел Одинцов (https://vk.com/errormaned)')
 
 
-@bot.on.message(text="/lobanov_suka") # пасхалОЧКА
+@bot.on.message(text="/lobanov_suka") # пасхалки
 async def lobanov_handler(message: Message):
     await message.answer('Влад, иди нахуй пожалуйста')
-
-
 @bot.on.message(text="/lzrd")
 async def lizard_handler(message: Message):
     await message.answer('by LizardSquad dev')
-
 
 bot.run_forever()
