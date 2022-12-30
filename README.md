@@ -1,6 +1,7 @@
 # Простой ВК бот для беседы /server/
 
 <img src="https://img.shields.io/badge/version-0.2-green">
+<img src="https://img.shields.io/badge/for-VK-blue">
 
 ## Инструкция по запуску
 ### Шаг 1. Подготовка сообщества к работе бота
