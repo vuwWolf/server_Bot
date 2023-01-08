@@ -1,10 +1,18 @@
 from vkbottle.bot import Bot, Message # Импорт библиотеки
 from loguru import logger
 import random
+from config import TokenPenis
+from time import sleep
+from sys import exit
 
-print('Copyright © 2022 vuwWolf')
-TokenPenis = input("Введите токен: ")
-bot = Bot(TokenPenis)
+if TokenPenis == 'None':
+    print('Введите токен в файл config.py (файл можно открыть обычным блокнотом) \n'
+          'Через 60 секунд программа сама закроется, или сам закрой, мне похуй')
+    sleep(60)
+    exit(0)
+
+else:
+    bot = Bot(TokenPenis)
 
 @bot.on.message(text="/help") # Задаю хуйню, чтобы при появлении "/help" в чате, писалось сообщение
 async def help_handler(message: Message):
@@ -50,3 +58,4 @@ async def lizard_handler(message: Message):
     await message.answer('by LizardSquad dev')
 
 bot.run_forever()
+print('Copyright © 2022 vuwWolf')
