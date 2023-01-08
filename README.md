@@ -1,7 +1,7 @@
 # Простой ВК бот для беседы /server/
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.2-green">
+  <img src="https://img.shields.io/badge/version-0.3-green">
   <img src="https://img.shields.io/badge/for-VK-blue">
   <img src="https://img.shields.io/badge/python-3.11%2B-yellow">
 </p>
