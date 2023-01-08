@@ -38,12 +38,18 @@ ____
 
 ![image](https://user-images.githubusercontent.com/63950114/207950467-241a77d6-4a8e-417e-b194-bf016f9bb1f5.png)
 ____
-Скачиваем из поста с припиской LATEST bot.zip по ссылке ниже и распаковываем где удобно
+### Шаг 3. Дрочим письку
+Скачиваем бота и распаковываем в папку где удобно
 
-https://github.com/vuwWolf/server_Bot/releases
+![image](https://user-images.githubusercontent.com/63950114/211202817-5613fdd5-83b6-4ab7-8ae2-1ec0cebaade3.png)
 ____
-В папке запускаем bot.exe и вставляем скопированный ранее токен
+Заходим на офф. сайт Питона (https://www.python.org/) и наводимся на вкладку Downloads, скачиваем и устанавливаем.
 
-![image](https://user-images.githubusercontent.com/63950114/207954449-e036307d-7a74-4052-8765-6ef7b3507bca.png)
+![image](https://user-images.githubusercontent.com/63950114/211203356-5f6606cc-f665-4114-b38f-a902205720bc.png)
+____
+Открываем консоль от имени администратора и вписываем команду cd и путь до папки с ботом. Затем введите команду `pip install -r requirements.txt`. Начнётся установка всех требуемых библиотек.
 
-![image](https://user-images.githubusercontent.com/63950114/207954513-896f8096-8d6d-47d2-9db5-61f860db96d9.png)
+![image](https://user-images.githubusercontent.com/63950114/211203444-7b2a1ea7-c3da-45b4-8498-c24d7c5d3091.png)
+![image](https://user-images.githubusercontent.com/63950114/211203768-daa0e994-951a-41fa-8ebc-b23f39dc98cd.png)
+____
+Открываем config.py обычным Блокнотом и вводим туда токен, который мы получили ранее. В той же консоли, которой мы пользовались ранее, запускаем bot.py командой `python bot.py`.
